@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-shadow: 1px 1px 0.5px 0.5px #79797925;
+}
+.logo h1{
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    color: #031eed;
+    
+    font-size: 2rem;
+    font-weight: 1.5px;
+}
+.logo h1 span{
+    font-family: "Lobster", sans-serif;
+    color: tomato;
+}
+.menu-links ul{
+    display: flex;
+    width: 60%;
+    list-style: none; 
+    display: inline-flex;
+}
+.menu-links ul li a{
+    text-decoration: none;
+    margin-left: 2rem;
+    color:  #031eed; 
+    font-size: 1.4rem;
+
+}
+.menu-links ul li a:hover{
+    color: #000000;
+    border-bottom: 2px solid teal;
+    padding: 1px;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.image img{
+    height:28rem;
+}
+.profile h1{
+    font-family: "Lobster", sans-serif;
+    color: #031eed;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+.profile p{
+    font-family: "Roboto", system-ui;
+        font-weight: bold;
+        font-style: italic; 
+
+}
