@@ -1,2 +1,2 @@
-# spondia.tech
+# Mochel one
 full stoke development
